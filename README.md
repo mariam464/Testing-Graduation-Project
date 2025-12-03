@@ -1,12 +1,12 @@
 # OrangeHRM Automation Framework
 
-Introduction
+# Introduction
 
 This repository contains a robust Test Automation Framework for the OrangeHRM Demo Application. It is built using Selenium WebDriver with Java and follows the Page Object Model (POM) design pattern to ensure maintainability and scalability.
 
 The framework is designed to handle dynamic web elements, loading spinners, and complex workflows like Candidate Recruitment and Performance Reviews.
 
-Key Features
+# Key Features
 
 Hybrid Framework: Combines POM, Data-Driven Testing, and Modular design.
 
@@ -20,7 +20,7 @@ Cross-Browser Ready: Uses Selenium Manager for automatic driver management.
 
 Lazy Initialization: optimized Page Object instantiation to ensure thread safety and driver availability.
 
-Tech Stack
+# Tech Stack
 
 Language: Java (JDK 21 Recommended)
 
@@ -34,32 +34,7 @@ Reporting: Allure Framework
 
 IDE: IntelliJ IDEA
 
-📂 Project Structure
-
-src/
-├── main/java/org/example
-│   ├── Pages/                  # Page Object Classes
-│   │   ├── loginpage/
-│   │   ├── dashboard/
-│   │   ├── myinfo/
-│   │   ├── pim/
-│   │   ├── recruitment/
-│   │   └── ...
-│   ├── utils/                  # Utilities (ElementUtils, Wait Helpers)
-│   └── SetUp.java              # Base Test Class (Driver Init/Teardown)
-│
-├── test/java/org/example
-│   ├── AdminTests.java
-│   ├── LoginTests.java
-│   ├── PIMTests.java
-│   ├── RecruitmentTests.java
-│   └── ...
-│
-└── resources/
-    └── testng.xml              # Test Suite Configuration
-
-
-Prerequisites
+# Prerequisites
 
 Java JDK 21 (Required for Allure Report compatibility).
 
@@ -132,6 +107,3 @@ Performance: KPI & Tracker Management, Review Search.
 
 Claim: Submit Claim requests.
 
-🤝 Contributors
-
-QA Automation Team
