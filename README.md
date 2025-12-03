@@ -46,7 +46,7 @@ Installation
 
 Clone the repository:
 
-git clone [https://github.com/your-username/OrangeHRM-Automation.git](https://github.com/your-username/OrangeHRM-Automation.git)
+git clone [https://github.com/mariam464/OrangeHRM-Automation.git](https://github.com/your-username/OrangeHRM-Automation.git)
 
 
 Navigate to the project directory:
